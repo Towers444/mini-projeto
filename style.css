@@ -1,0 +1,175 @@
+body {
+    background-color: lightblue;
+}
+
+#container {
+    background-color: lightgray;
+    box-shadow: 2px 2px 2px #0003, -2px 2px 2px #0003;
+    width: 80%;
+    margin: 0 auto;
+
+  }
+
+header {
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+    padding: 1em;
+    text-align: center;
+    color: white;
+  }
+
+  #tituloPagina {
+    font-family: "Special Elite", cursive;
+  }
+  
+  #subTituloPagina {
+    font-family: "Aldrich", sans-serif;
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+    padding: 1em;
+    margin-top: 1em;
+    clear: right;
+  }
+  footer .texto-rodape {
+    display: inline-block;
+    width: calc(100% - 215px - 2em - 2em);
+    margin-left: 1em;
+    vertical-align: top;
+  }
+  #posts-principais {
+    padding-top: 1.5em;
+  }
+  
+  #posts-principais h1 {
+    margin-bottom: 1em;
+  }
+  
+  #posts-principais article {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    display: inline-block;
+  }
+  
+  #posts-principais article .titulo {
+    text-shadow: 1px 1px black;
+  }
+  
+  #posts-principais article img {
+    width: 100%;
+    box-sizing: border-box;
+    border: 6px solid white;
+    border-radius: 1em;
+    margin-bottom: .5em;
+  }
+
+  .article_secundario {
+        box-sizing: border-box;
+        max-width: 24%;
+        margin-right: 1%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 1%;
+        padding: 0.75em;
+        border-radius: 0.5em;
+        background-color: #2264;
+  }
+
+  .noticias {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #autor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    color: white;
+  }
+
+  #redesContato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #redesContato a {
+    padding: 0 5%;
+  }
+
+  .categoria {
+    padding-left: 5%;
+  }
+
+  #galeria {
+    margin: 0 auto;
+  }
+  
+  #galeria, #slide {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  #slide {
+    border: 1px solid gray;
+  }
+  
+  .controle {
+    width: 100px;
+    height: 45px;
+    padding: 6px 10px;
+    border: 1px solid #999;
+    background-image: linear-gradient(to bottom, #ddf, #bbe);
+    transition: all 100ms ease-out;
+  }
+  .controle:hover {
+    border-color: #aaa;
+    background-image: linear-gradient(to bottom, #eef, #ccf);
+    font-size: 120%;
+    cursor: pointer;
+  }
+  
+  #anterior {
+    float: left;
+  }
+  
+  #proximo {
+    float: right;
+  }
+
+  #manchete {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+    padding-bottom: 5%;
+    color: black;
+  }
+
+  #tituloManchete {
+    font-size: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
